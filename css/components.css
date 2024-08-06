@@ -1,0 +1,65 @@
+/* components */
+/* ==================== */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.primary-color {
+  background-color: var(--light-blue);
+}
+
+.secondary-color {
+  background-color: var(--dark-grey);
+}
+
+.description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--section-spacing);
+}
+
+.description h2 {
+  font-size: 32px;
+}
+
+.description img {
+    margin: 10px 0;
+}
+
+.description p{
+    font-size: 16px;
+  }
+  
