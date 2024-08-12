@@ -20,6 +20,13 @@
   /* background-color: red; */
 }
 
+@media (max-width: 991px) {
+  #about .content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 #about .content hr {
   width: 150px;
   height: 3px;

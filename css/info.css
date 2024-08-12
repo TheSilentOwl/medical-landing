@@ -27,10 +27,26 @@
 #info .row .info-item {
   display: flex;
   align-items: start;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   padding: 0.5rem;
   margin: 1rem;
+}
+@media (max-width: 991px) {
+  #info .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 667px) {
+  #info .row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  #info .row .info-item {
+    width: 250px;
+  }
 }
 
 #info .row .info-item .icon {
