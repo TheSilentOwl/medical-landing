@@ -67,6 +67,7 @@ header ul li a:hover {
 
 .home-content .container .home-box {
   width: 600px;
+  transform: translateY(40px);
 }
 
 .home-content small img {

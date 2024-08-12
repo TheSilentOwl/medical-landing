@@ -1,18 +1,18 @@
 /* about */
 /* ==================== */
 
-.about {
+#about {
   padding: var(--section-spacing) 0;
 }
 
-.about .container {
+#about .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
 }
 
-.about .content {
+#about .content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -20,7 +20,7 @@
   /* background-color: red; */
 }
 
-.about .content hr {
+#about .content hr {
   width: 150px;
   height: 3px;
   background-color: var(--light-blue);
@@ -28,24 +28,24 @@
   margin: calc(var(--section-spacing) / 4) 0;
 }
 
-.about .content p {
+#about .content p {
   font-size: 16px;
   margin-bottom: calc(var(--section-spacing) / 4) ;
 }
 
-.about .content .list {
+#about .content .list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   color: var(--light-grey);
   font-size: 15px;
 }
 
-.about .content .list i {
+#about .content .list i {
     color: var(--light-blue);
     margin-right: 5px;
     
 }
 
-.about .col img {
+#about .col img {
   width: 100%;
 }

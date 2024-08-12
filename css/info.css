@@ -1,0 +1,69 @@
+#info {
+  background: url(../images/about-img.jpeg) center center/cover no-repeat;
+  padding: calc(var(--section-spacing) / 3) 0;
+  position: relative;
+  z-index: 1;
+}
+
+#info::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: var(--light-blue);
+  opacity: 0.75;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#info .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#info .row .info-item {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+#info .row .info-item .icon {
+  width: 65px;
+  height: 65px;
+  border: 2.5px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#info .row .info-item i {
+  font-size: 30px;
+  color: white;
+}
+
+#info .row .info-item .icon:hover {
+  background-color: white;
+}
+
+#info .row .info-item .icon:hover i {
+  color: var(--light-blue);
+}
+
+#info .row .info-item .info-details span {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+#info .row .info-item .info-details p {
+  font-size: 16px;
+  color: white;
+}

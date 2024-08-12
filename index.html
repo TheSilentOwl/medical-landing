@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medical landing</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -13,6 +13,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="css/setup.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/info.css" />
   </head>
   <body>
     <header id="home">
@@ -59,7 +64,7 @@
       </div>
     </header>
     <main>
-      <div class="about" id="about">
+      <section id="about">
         <div class="container">
           <div class="description">
             <h2>We Offer Different Services To Improve Your Health</h2>
@@ -123,7 +128,49 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section id="info">
+        <div class="container">
+          <div class="row">
+            <div class="info-item">
+              <div class="icon">
+                <i class="fa-solid fa-house-chimney"></i>
+              </div>
+              <div class="info-details">
+                <span>3468</span>
+                <p>Hospital Rooms</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="info-details">
+                <span>557</span>
+                <p>Specialist Doctors</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon">
+                <i class="fa-solid fa-face-smile-beam"></i>
+              </div>
+              <div class="info-details">
+                <span>4379</span>
+                <p>Happy patients</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="icon">
+                <i class="fa-solid fa-rectangle-list"></i>
+              </div>
+              <div class="info-details">
+                <span>32</span>
+                <p>Years of Experience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
