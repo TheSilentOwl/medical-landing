@@ -91,13 +91,14 @@ header ul li a:hover {
 
 .home-content p {
   margin-bottom: 30px;
+  font-size: 16px;
 }
 
-.home-content .call-to-action a.primary-color:hover {
+.home-content a.primary-color:hover {
   background-color: #1360a3;
 }
 
-.home-content .call-to-action a.secondary-color:hover {
+.home-content a.secondary-color:hover {
   background-color: #46475d;
 }
 

@@ -1,0 +1,31 @@
+#services {
+    padding: var(--section-spacing);
+}
+
+#services .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 2rem;
+    row-gap: 3rem;
+}
+
+#services .content .item {
+    /* background-color: red; */
+    display: flex;
+
+}
+
+#services .content .item i {
+    font-size: 30px;
+    color: var(--light-blue);
+    margin-right: 1rem;
+    line-height: 2.5rem;
+}
+
+#services .content .item h3 {
+    font-size: 20px;
+}
+
+#services .content .item p {
+    margin-top: 5px;
+}
