@@ -31,16 +31,22 @@
   padding: 10px 25px;
   border-radius: 5px;
   margin-right: 20px;
-  transition: 0.3s;
+  transition: background-color 0.3s ease;
   margin-bottom: 20px;
   display: inline-block;
+  cursor: pointer;
 }
 
-.primary-color {
+
+.btn-primary {
   background-color: var(--light-blue);
 }
 
-.secondary-color {
+.btn-primary:hover {
+  background-color: #1360a3;
+}
+
+.btn-secondary {
   background-color: var(--dark-grey);
 }
 

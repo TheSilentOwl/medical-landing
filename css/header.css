@@ -94,11 +94,8 @@ header ul li a:hover {
   font-size: 16px;
 }
 
-.home-content a.primary-color:hover {
-  background-color: #1360a3;
-}
 
-.home-content a.secondary-color:hover {
+.home-content a.btn-secondary:hover {
   background-color: #46475d;
 }
 
