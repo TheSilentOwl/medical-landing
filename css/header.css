@@ -104,24 +104,11 @@ header ul li a:hover {
 @media (max-width: 767px) {
   .home-content .container .home-box {
     width: 500px;
-  }
-
-  .home-content .call-to-action {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
   }
 }
 @media (max-width: 600px) {
   .home-content .container .home-box {
     width: 100%;
-  }
-
-  .home-content .call-to-action {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 }

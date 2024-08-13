@@ -33,6 +33,7 @@
   margin-right: 20px;
   transition: 0.3s;
   margin-bottom: 20px;
+  display: inline-block;
 }
 
 .primary-color {
