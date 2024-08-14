@@ -1,0 +1,58 @@
+#doctors {
+  padding: var(--section-spacing) 0;
+  background-color: #f6f6f6;
+}
+
+#doctors .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+
+#doctors .content .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  min-height: 625px;
+  /* max-width: 350px; */
+}
+
+#doctors .content .item .image {
+  width: 100%;
+  height: 65%;
+}
+#doctors .content .item:nth-child(1) .image {
+  background: url(../images/doctor-1.jpg) center center/cover no-repeat;
+}
+#doctors .content .item:nth-child(2) .image {
+    background: url(../images/doctor-2.jpg) center center/cover no-repeat;
+  }
+  #doctors .content .item:nth-child(3) .image {
+    background: url(../images/doctor-3.avif) center center/cover no-repeat;
+  }
+
+#doctors .content .item .item-details {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#doctors .content .item .item-details h3 {
+  font-weight: 600;
+  margin: 1rem 0;
+}
+#doctors .content .item .item-details p {
+  color: var(--light-blue);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+#doctors .content .item button {
+  margin: 1rem 0;
+  border-radius: 50px;
+}
