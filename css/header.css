@@ -32,9 +32,6 @@ header ul {
   display: flex;
 }
 
-header ul {
-  /* background-color: yellow; */
-}
 
 header ul li a {
   display: block;
