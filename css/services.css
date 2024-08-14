@@ -1,5 +1,5 @@
 #services {
-    padding: var(--section-spacing);
+    padding: calc(var(--section-spacing) *2) 0;
 }
 
 #services .content {

@@ -5,7 +5,7 @@
 
 #prices .content {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   justify-content: center;
   column-gap: 2rem;
   row-gap: 3rem;
@@ -25,7 +25,7 @@
 }
 
 #prices .content .item h3 {
-    font-size: 20px;
+  font-size: 20px;
   font-weight: 600;
   margin: 1.5rem 0 0;
 }
@@ -49,21 +49,17 @@
 }
 
 #prices .content .item ul li i.fa-circle-check {
-    color: var(--light-blue);
+  color: var(--light-blue);
 }
 #prices .content .item ul li i.fa-circle-xmark {
-    color: var(--light-grey);
+  color: var(--light-grey);
 }
 
 #prices .content .item button {
-    width: 100%;
-    font-size: 16px;
-    font-weight: 500;
-    border: none;
-    margin-top: 2rem;
-    letter-spacing: 0.1rem;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  margin-top: 2rem;
+  letter-spacing: 0.1rem;
 }
-
-
-
-
