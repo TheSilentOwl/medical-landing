@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/doctors.css" />
     <link rel="stylesheet" href="css/blogs.css" />
     <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/newsletter.css" />
   </head>
   <body>
     <header id="home">
@@ -529,46 +530,87 @@
             </p>
           </div>
           <div class="content">
-            <div class="wrapper"><form action="">
-              <div class="form-control">
-                <input type="text" name="name" placeholder="Name" />
-                <input type="email" name="email" placeholder="Email" />
+            <div class="wrapper">
+              <form action="">
+                <div class="form-control">
+                  <input type="text" name="name" placeholder="Name" required />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <input
+                    type="number"
+                    name="phone"
+                    placeholder="Phone"
+                    required
+                  />
+                  <select name="department">
+                    <option value="" disabled selected>Department</option>
+                    <option value="0">Ward</option>
+                    <option value="1">Cardiology</option>
+                    <option value="2">Ophthalmology</option>
+                    <option value="3">Dentistry</option>
+                    <option value="4">Dermatology</option>
+                  </select>
+                </div>
+                <div class="form-control">
+                  <select name="doctors" aria-placeholder="Doctor">
+                    <option value="" disabled selected>Doctor</option>
+                    <option value="0">Dr. Zyad Ali</option>
+                    <option value="0">Dr. Mazen Osama</option>
+                    <option value="1">Dr. Aisha Mustafa</option>
+                  </select>
+                  <input type="date" name="date" required />
+                </div>
+                <textarea
+                  name="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Write your message here..."
+                ></textarea>
+                <button type="submit" class="btn btn-primary">
+                  Book An Appointment
+                </button>
+              </form>
+              <div class="image">
+                <img src="images/contact.jpg" alt="contact photo" />
               </div>
-              <div class="form-control">
-                <input type="number" name="phone" placeholder="Phone" />
-                <select name="department">
-                  <option value="" disabled selected>Department</option>
-                  <option value="0">Ward</option>
-                  <option value="1">Cardiology</option>
-                  <option value="2">Ophthalmology</option>
-                  <option value="3">Dentistry</option>
-                  <option value="4">Dermatology</option>
-                </select>
-              </div>
-              <div class="form-control">
-                <select name="doctors" aria-placeholder="Doctor">
-                  <option value="" disabled selected>Doctor</option>
-                  <option value="0">Dr. Zyad Ali</option>
-                  <option value="0">Dr. Mazen Osama</option>
-                  <option value="1">Dr. Aisha Mustafa</option>
-                </select>
-                <input type="date" name="date" />
-              </div>
-              <textarea
-                name="message"
-                cols="30"
-                rows="10"
-                placeholder="Write your message here..."
-              ></textarea>
-              <button type="submit" class="btn btn-primary">Book An Appointment</button>
-            </form>
-            <div class="image">
-              <img src="images/contact.jpg" alt="contact photo" />
-            </div></div>
-            
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="newsletter">
+        <div class="container">
+          <div class="content">
+            <div class="col">
+              <h2>Sign up for newslettter</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+                esse!
+              </p>
+            </div>
+            <div class="col">
+              <form action="">
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Your email address"
+                  required
+                />
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
     </main>
   </body>
 </html>
+
+<!--
+   1- make the hover effect of the blogs section: that of the width from 0 to 100% 
+    -->

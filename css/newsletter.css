@@ -1,0 +1,30 @@
+#newsletter {
+  padding: calc(var(--section-spacing) / 2);
+  background-color: var(--bg-newsletter);
+}
+
+#newsletter .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 3rem;
+    align-items: center;
+}
+
+#newsletter .col form {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+#newsletter .col form input, #newsletter .col form button {
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#newsletter .col form button {
+    margin: 0;
+}
